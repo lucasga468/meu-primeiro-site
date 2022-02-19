@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h1 class="l">logo</h1>
+            </div>
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="" class="a">HOME</a></li>
+                    <li><a href="" class="a">ABOUT</a></li>
+                    <li><a href="" class="a">CONTACT</a></li>
+                    <li><a href="" class="a">PROJECTS</a></li>
+                </ul>
+                <span id="mobilemenu" onclick="mobmenu()">
+                    <div id="line1" onclick="fechar()"></div>
+                    <div id="line2"></div>
+                    <div id="line3" onclick="fechar()"></div>
+                </span>
+                <span>
+                    <button  class="button1"><a href="file:///C:/Users/lucas/Documents/htmlcss/site%201/HTMLPage13.html" class="ab">LOGIN</a></button>
+                    <button id="button2" onclick="button('blue')" ><a href="#" class="ab">GET START</a></button>
+                </span>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="maincontainer">
+                <div class="text">
+                    <h1 class="titulo">The video host <br /> with the most</h1>
+                    <p class="p">See measurable results from your<br /> videos (and podcasts, too) with our<br /> complete hosting platform<br /> for marketers.</p>
+                </div>
+                <div class="vdeo">
+                    <img src="" class="img" />
+                </div>
+                <span class="buttonm">
+                    <button class="bm1"><a href="" class="am">TRY</a></button>
+                    <button class="bm2"><a href="" class="am">EXPLORE</a></button>
+                </span>
+            </div>
+        </main>
+    </div>
+    <script>
+        function mobmenu() {
+            var myElement = document.getElementById("nav");
+            // set inline-style transform to element
+            myElement.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
